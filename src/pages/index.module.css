@@ -1,0 +1,16 @@
+.about {
+    display: flex;
+}
+
+.about p:first-child {
+    margin-top: 0px;
+}
+
+.aboutDescription {
+    flex: 1 0 60%;
+    padding-right: 5%;
+}
+
+.aboutHeadshot {
+    flex: 1 0 400px;
+}

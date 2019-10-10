@@ -2,12 +2,13 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headshot from '../assets/smilingHeadshot.jpg';
+import indexStyle from './index.module.css';
 
 const IndexPage = () => (
     <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
-        <div className="about">
-            <div className="about--description">
+        <div className={indexStyle.about}>
+            <div className={indexStyle.aboutDescription}>
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
                     focused on creating amazing digital experiences.
@@ -21,7 +22,6 @@ const IndexPage = () => (
                     (formerly HackerYou) in order to help working professionals
                     transition into a career in Web Development.
                 </p>
-
                 <p>
                     Now, I'm returning to my roots and looking to get back in
                     the developer's seat. I'm looking to join a collaborative
@@ -29,7 +29,7 @@ const IndexPage = () => (
                     to learn and build projects that help people.
                 </p>
             </div>
-            <div className="about--headshot">
+            <div className={indexStyle.aboutHeadshot}>
                 <img src={headshot} alt="" />
             </div>
         </div>

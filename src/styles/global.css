@@ -215,6 +215,7 @@ button {
 a {
     text-decoration: none;
     transition: 0.2s all;
+    color: #6d435a;
 }
 
 a:hover {
@@ -245,4 +246,9 @@ li a {
 
 li:last-child {
     padding-right: 0px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0px;
 }
