@@ -1,5 +1,6 @@
 .about {
     display: flex;
+    align-items: center;
 }
 
 .about p:first-child {
@@ -12,5 +13,6 @@
 }
 
 .aboutHeadshot {
-    flex: 1 0 400px;
+    flex: 1 0 40%;
+    min-width: 300px;
 }

@@ -254,3 +254,10 @@ footer {
     text-align: center;
     margin: 40px 0px;
 }
+
+@media (max-width: 1120px) {
+    .wrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
