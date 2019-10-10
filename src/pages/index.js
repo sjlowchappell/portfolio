@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-// import Image from '../components/image';
 import SEO from '../components/seo';
+import headshot from '../assets/smilingHeadshot.jpg';
 
 const IndexPage = () => (
-    <Layout pageTitle={'about me'}>
+    <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
         <div className="aboutContainer">
             <div className="aboutDescription">
@@ -31,7 +31,7 @@ const IndexPage = () => (
                 </p>
             </div>
             <div className="aboutHeadshot">
-                <img src="./assets/smilingHeadshot.jpg" alt="" />
+                <img src={headshot} alt="" />
             </div>
         </div>
     </Layout>
