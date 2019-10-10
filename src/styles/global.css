@@ -186,7 +186,9 @@ img {
 }
 
 .wrapper {
-    margin: 2% 10% 0px 20%;
+    margin: 2% 10% 0px auto;
+    max-width: 1000px;
+    padding: 15px;
 }
 
 /* Typography */
