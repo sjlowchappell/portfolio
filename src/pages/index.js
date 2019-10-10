@@ -28,8 +28,9 @@ const IndexPage = () => (
                     <a href="https://gimletmedia.com/shows/heavyweight">
                         Heavyweight
                     </a>{' '}
-                    episode, DMing an amazing party of dragon-slaying heroes, or
-                    hitting one of the many southern Ontario climbing crags.
+                    episode, Dungeon Master-ing an amazing party of
+                    dragon-slaying heroes, or hitting one of the many southern
+                    Ontario climbing crags.
                 </p>
             </div>
             <div className={indexStyle.aboutHeadshot}>
