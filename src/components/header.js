@@ -4,7 +4,7 @@ import React from 'react';
 import github from '../assets/github-1.svg';
 import instagram from '../assets/instagram-glyph-1.svg';
 import linkedin from '../assets/linkedin-icon-1.svg';
-import './headerStyle.module.css';
+import './header.module.css';
 
 const Header = ({ pageTitle }) => (
     <header>

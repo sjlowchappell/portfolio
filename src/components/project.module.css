@@ -1,0 +1,26 @@
+.project {
+    display: flex;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.project:first-child {
+    margin-top: 50px;
+}
+
+.project:nth-child(2n) {
+    text-align: right;
+}
+
+.projectImage {
+    min-width: 400px;
+}
+
+.projectDescription {
+    flex: 1 0 40%;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: space-between;
+}

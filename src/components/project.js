@@ -1,27 +1,53 @@
 import React from 'react';
+import projectStyle from './project.module.css';
 
-const Project = ({ title, subtitle, description, image, links }) => {
+const Project = ({ title, subtitle, description, image, links, index }) => {
     return (
-        <div className="project">
-            <div className="project--image">
-                <a href={links.live}>
-                    <img src={image} alt="" />
-                </a>
-            </div>
-            <div className="project--description">
-                <h2>{title}</h2>
-                <p>{subtitle}</p>
-                <p>{description}</p>
-                <div className="project--links">
-                    <a href={links.live}>
-                        <button>View it live</button>
-                    </a>
-                    <a href={links.gitHub}>
-                        <button>View the code</button>
-                    </a>
+        <>
+            {index % 2 === 0 ? (
+                <div className={projectStyle.project}>
+                    <div className={projectStyle.projectImage}>
+                        <a href={links.live}>
+                            <img src={image} alt="" />
+                        </a>
+                    </div>
+                    <div className={projectStyle.projectDescription}>
+                        <h2>{title}</h2>
+                        <p>{subtitle}</p>
+                        <p>{description}</p>
+                        <div className={projectStyle.projectLinks}>
+                            <a href={links.live}>
+                                <button>View it live</button>
+                            </a>
+                            <a href={links.gitHub}>
+                                <button>View the code</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            ) : (
+                <div className={projectStyle.project}>
+                    <div className={projectStyle.projectDescription}>
+                        <h2>{title}</h2>
+                        <p>{subtitle}</p>
+                        <p>{description}</p>
+                        <div className={projectStyle.projectLinks}>
+                            <a href={links.live}>
+                                <button>View it live</button>
+                            </a>
+                            <a href={links.gitHub}>
+                                <button>View the code</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className={projectStyle.projectImage}>
+                        <a href={links.live}>
+                            <img src={image} alt="" />
+                        </a>
+                    </div>
+                </div>
+            )}
+        </>
     );
 };
 
