@@ -13,6 +13,10 @@
     text-align: right;
 }
 
+.project:nth-child(2n) .projectImage {
+    order: 1;
+}
+
 .projectImage {
     flex: 1 0 50%;
     min-width: 400px;
@@ -32,5 +36,8 @@
     }
     .projectImage {
         max-width: 600px;
+    }
+    .project:nth-child(2n) .projectImage {
+        order: 0;
     }
 }
