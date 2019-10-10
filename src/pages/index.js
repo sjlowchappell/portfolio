@@ -23,10 +23,10 @@ const IndexPage = () => (
                     transition into a career in Web Development.
                 </p>
                 <p>
-                    Now, I'm returning to my roots and looking to get back in
-                    the developer's seat. I'm looking to join a collaborative
-                    team with opportunities for mentorship where I can continue
-                    to learn and build projects that help people.
+                    When I'm not hacking on projects, you can find me walking
+                    around the city listening to the latest Heavyweight episode,
+                    DMing an amazing party of dungeoneering badasses, or hitting
+                    one of the many southern Ontario climbing crags.
                 </p>
             </div>
             <div className={indexStyle.aboutHeadshot}>
