@@ -12,17 +12,19 @@ import Header from './header';
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div className="wrapper">
-            <Header pageTitle={pageTitle} />
-            <main>{children}</main>
-            <footer>
-                <p>
-                    © {new Date().getFullYear()}, Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a> by Sam
-                    Low-Chappell
-                </p>
-            </footer>
+        <div className="outerWrapper">
+            <div className="innerWrapper">
+                <Header pageTitle={pageTitle} />
+                <main>{children}</main>
+                <footer>
+                    <p>
+                        © {new Date().getFullYear()}, Built with
+                        {` `}
+                        <a href="https://www.gatsbyjs.org">Gatsby</a> by Sam
+                        Low-Chappell
+                    </p>
+                </footer>
+            </div>
         </div>
     );
 };

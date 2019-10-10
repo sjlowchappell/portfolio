@@ -185,7 +185,11 @@ img {
     max-width: 100%;
 }
 
-.wrapper {
+.outerWrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.innerWrapper {
     margin: 2% 10% 0px auto;
     max-width: 1000px;
     padding: 15px;
