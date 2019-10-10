@@ -20,5 +20,17 @@
 
 .projectLinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+@media (max-width: 850px) {
+    .project {
+        flex-direction: column;
+    }
+    .project:nth-child(2n) {
+        text-align: left;
+    }
+    .projectImage {
+        max-width: 600px;
+    }
 }
