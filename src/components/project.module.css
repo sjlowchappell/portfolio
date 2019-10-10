@@ -1,5 +1,6 @@
 .project {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 100px 0px;
 }
@@ -13,11 +14,8 @@
 }
 
 .projectImage {
+    flex: 1 0 50%;
     min-width: 400px;
-}
-
-.projectDescription {
-    flex: 1 0 40%;
 }
 
 .projectLinks {

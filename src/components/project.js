@@ -11,7 +11,7 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
                             <img src={image} alt="" />
                         </a>
                     </div>
-                    <div className={projectStyle.projectDescription}>
+                    <div>
                         <h2>{title}</h2>
                         <p>{subtitle}</p>
                         <p>{description}</p>
@@ -27,7 +27,7 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
                 </div>
             ) : (
                 <div className={projectStyle.project}>
-                    <div className={projectStyle.projectDescription}>
+                    <div>
                         <h2>{title}</h2>
                         <p>{subtitle}</p>
                         <p>{description}</p>
