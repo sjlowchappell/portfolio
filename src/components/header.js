@@ -1,6 +1,10 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import github from '../assets/github-1.svg';
+import instagram from '../assets/instagram-glyph-1.svg';
+import linkedin from '../assets/linkedin-icon-1.svg';
+import './headerStyle.module.css';
 
 const Header = ({ pageTitle }) => (
     <header>
@@ -8,13 +12,17 @@ const Header = ({ pageTitle }) => (
             <ul>
                 <li>
                     <a href="https://github.com/sjlowchappell">
-                        <i className="fab fa-github"></i>
+                        <img src={github} alt="" />
                     </a>
                 </li>
-
                 <li>
                     <a href="https://www.instagram.com/sammylowchappy/">
-                        <i className="fab fa-instagram"></i>
+                        <img src={instagram} alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/samuel-low-chappell-626110b3/">
+                        <img src={linkedin} alt="" />
                     </a>
                 </li>
             </ul>

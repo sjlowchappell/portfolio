@@ -3,10 +3,14 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Project from '../components/project';
+import fermentedFilms from '../assets/fermentedFilmsMockup.png';
+import podcastable from '../assets/podcastableMockup.png';
+import songSmash from '../assets/songSmashMockup.png';
+import gourmand from '../assets/foodPassionMockup.png';
 
 const projectData = [
     {
-        image: './assets/fermentedFilmsMockup.png',
+        image: fermentedFilms,
         title: 'Fermented Films',
         subtitle: 'Fun Project!',
         description:
@@ -17,7 +21,7 @@ const projectData = [
         },
     },
     {
-        image: './assets/fermentedFilmsMockup.png',
+        image: podcastable,
         title: 'Podcastable',
         subtitle: 'Fun Project!',
         description:
@@ -28,7 +32,7 @@ const projectData = [
         },
     },
     {
-        image: './assets/fermentedFilmsMockup.png',
+        image: songSmash,
         title: 'Song Smash',
         subtitle: 'Fun Project!',
         description:
@@ -39,7 +43,7 @@ const projectData = [
         },
     },
     {
-        image: './assets/fermentedFilmsMockup.png',
+        image: gourmand,
         title: 'Le Gourmand',
         subtitle: 'Fun Project!',
         description:
