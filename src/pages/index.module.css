@@ -16,3 +16,19 @@
     flex: 1 0 40%;
     min-width: 300px;
 }
+.aboutHeadshot img {
+    transition: 0.3s all;
+}
+
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+    .aboutDescription {
+        padding-right: 0px;
+    }
+    .aboutHeadshot img {
+        width: 300px;
+        border-radius: 50%;
+    }
+}

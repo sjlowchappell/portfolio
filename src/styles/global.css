@@ -182,6 +182,7 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 .outerWrapper {
@@ -204,6 +205,7 @@ html {
 h1 {
     font-size: 7rem;
     font-family: 'Cormorant Garamond', 'serif';
+    /* line-height: 1.2; */
 }
 
 h2 {
@@ -225,6 +227,22 @@ a {
 
 a:hover {
     color: #ff6978;
+}
+
+/* Buttons */
+button {
+    border: 3px solid #6d435a;
+    padding: 10px 40px;
+    background: #e8edea;
+    color: #6d435a;
+    transition: 0.2s all;
+}
+button:hover {
+    color: #e8edea;
+    background: #6d435a;
+}
+button:hover a {
+    color: #e8edea;
 }
 
 /* Nav */
@@ -259,8 +277,14 @@ footer {
 }
 
 @media (max-width: 1120px) {
-    .wrapper {
+    .innerWrapper {
         margin-left: 0px;
         margin-right: 0px;
+    }
+}
+
+@media (max-width: 505px) {
+    h1 {
+        line-height: 1.2;
     }
 }
