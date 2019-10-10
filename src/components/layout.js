@@ -9,20 +9,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from './header';
-import './layout.css';
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <>
+        <div className="wrapper">
             <Header pageTitle={pageTitle} />
             <main>{children}</main>
             <footer>
-                © {new Date().getFullYear()}, Built with
-                {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a> by Sam
-                Low-Chappell
+                <p>
+                    © {new Date().getFullYear()}, Built with
+                    {` `}
+                    <a href="https://www.gatsbyjs.org">Gatsby</a> by Sam
+                    Low-Chappell
+                </p>
             </footer>
-        </>
+        </div>
     );
 };
 

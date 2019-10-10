@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headshot from '../assets/smilingHeadshot.jpg';
@@ -7,8 +6,8 @@ import headshot from '../assets/smilingHeadshot.jpg';
 const IndexPage = () => (
     <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
-        <div className="aboutContainer">
-            <div className="aboutDescription">
+        <div className="about">
+            <div className="about--description">
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
                     focused on creating amazing digital experiences.
@@ -30,7 +29,7 @@ const IndexPage = () => (
                     to learn and build projects that help people.
                 </p>
             </div>
-            <div className="aboutHeadshot">
+            <div className="about--headshot">
                 <img src={headshot} alt="" />
             </div>
         </div>
