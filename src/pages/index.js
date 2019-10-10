@@ -24,9 +24,12 @@ const IndexPage = () => (
                 </p>
                 <p>
                     When I'm not hacking on projects, you can find me walking
-                    around the city listening to the latest Heavyweight episode,
-                    DMing an amazing party of dungeoneering badasses, or hitting
-                    one of the many southern Ontario climbing crags.
+                    around the city listening to the latest{' '}
+                    <a href="https://gimletmedia.com/shows/heavyweight">
+                        Heavyweight
+                    </a>{' '}
+                    episode, DMing an amazing party of dragon-slaying heroes, or
+                    hitting one of the many southern Ontario climbing crags.
                 </p>
             </div>
             <div className={indexStyle.aboutHeadshot}>
