@@ -12,7 +12,7 @@ const Header = ({ pageTitle }) => (
             <ul>
                 <li>
                     <a href="https://github.com/sjlowchappell">
-                        <img src={github} alt="" />
+                        <img src={github} alt="" className="svg-filter" />
                     </a>
                 </li>
                 <li>

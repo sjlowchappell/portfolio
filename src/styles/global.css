@@ -226,6 +226,10 @@ a:hover {
 nav a {
     color: black;
 }
+nav img:hover {
+    filter: invert(65%) sepia(31%) saturate(6562%) hue-rotate(316deg)
+        brightness(103%) contrast(101%);
+}
 ul {
     padding: 0;
     margin: 0;
