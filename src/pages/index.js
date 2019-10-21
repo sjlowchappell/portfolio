@@ -36,7 +36,7 @@ const IndexPage = () => (
             <div className={indexStyle.aboutHeadshot}>
                 <img
                     src={headshot}
-                    alt="It's my face! A headshot of my beautiful smiling face sitting on my porch in Toronto."
+                    alt="It's my face! A headshot of me smiling sitting on my porch in Toronto."
                 />
             </div>
         </div>
