@@ -1,16 +1,29 @@
-.contactContainer {
-    display: flex;
-}
-
-.contactContainer > * {
-    padding: 0px 10px;
-}
-
 label,
 input,
 textarea {
     font-size: 2rem;
     resize: none;
+}
+
+input,
+textarea {
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 2px solid #6d435a;
+    background: #e8edea;
+}
+
+label {
+    margin: 5px 0px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.contactContainer {
+    display: flex;
+}
+
+.contactContainer > * {
+    padding-right: 10px;
 }
 
 .inputContainer {
@@ -27,25 +40,20 @@ textarea {
     flex: 1 0 auto;
 }
 
-input,
-textarea {
-    padding: 5px;
-}
-label {
-    margin: 5px 0px;
-}
-
 @media (max-width: 850px) {
     .contactContainer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px) {
+    .nameAndEmailContainer {
         flex-direction: column;
     }
     .inputContainer {
         margin: 20px 0px;
     }
-}
-
-@media (max-width: 850px) {
-    .nameAndEmailContainer {
-        flex-direction: column;
+    .buttonContainer {
+        text-align: center;
     }
 }
