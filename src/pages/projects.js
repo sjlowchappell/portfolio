@@ -17,7 +17,7 @@ const projectData = [
             'Fermented Films is a one stop shop for a curated evening based on one ingredient. Built using the React library, this project utilizes the MovieDB, CocktailDB, and MealsDB APIs.',
         links: {
             live: '#',
-            gitHub: '#',
+            gitHub: 'https://github.com/sjlowchappell/fermented-films',
         },
     },
     {
@@ -27,8 +27,8 @@ const projectData = [
         description:
             'Podcastable is your home for podcast Recommendations. Built with React and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations based on the searched value.',
         links: {
-            live: '#',
-            gitHub: '#',
+            live: 'https://priceless-ardinghelli-25423e.netlify.com/',
+            gitHub: 'https://github.com/sjlowchappell/podcastable',
         },
     },
     {
@@ -38,8 +38,8 @@ const projectData = [
         description:
             'Song Smash is a project using modern vanilla JavaScript. Enter your favorite song and get its lyrics. Smash the song, and see a silly result. Utilizes the Merriam Webster and Musixmatch APIs.',
         links: {
-            live: '#',
-            gitHub: '#',
+            live: 'https://sjlowchappell.github.io/songSmasher/',
+            gitHub: 'https://github.com/sjlowchappell/songSmasher',
         },
     },
     {
@@ -50,7 +50,7 @@ const projectData = [
             'Le Gourmand is a simple design conversion using HTML and CSS. Using modern techniques like CSS BEM and SASS, this project focuses on Web Accessibility to ensure it is good for all users.',
         links: {
             live: '#',
-            gitHub: '#',
+            gitHub: 'https://github.com/sjlowchappell/gourmetRestaurant',
         },
     },
 ];
