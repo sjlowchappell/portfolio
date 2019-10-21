@@ -1,12 +1,22 @@
+.contactContainer {
+    display: flex;
+}
+
+.contactContainer > * {
+    padding: 0px 10px;
+}
+
 label,
 input,
 textarea {
     font-size: 2rem;
+    resize: none;
 }
 
 .inputContainer {
     display: flex;
     flex-direction: column;
+    margin: 0px 20px 20px 0px;
 }
 
 .nameAndEmailContainer {
@@ -15,4 +25,27 @@ textarea {
 
 .nameAndEmailContainer > * {
     flex: 1 0 auto;
+}
+
+input,
+textarea {
+    padding: 5px;
+}
+label {
+    margin: 5px 0px;
+}
+
+@media (max-width: 850px) {
+    .contactContainer {
+        flex-direction: column;
+    }
+    .inputContainer {
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    .nameAndEmailContainer {
+        flex-direction: column;
+    }
 }
