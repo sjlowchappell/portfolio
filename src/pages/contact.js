@@ -25,11 +25,7 @@ const Contact = () => {
                         you.
                     </p>
                 </div>
-                <form
-                    onSubmit={handleSubmit}
-                    action="submit"
-                    className={contactStyles.contactForm}
-                >
+                <form onSubmit={handleSubmit} action="submit">
                     <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}>
                             <label for="name">Name</label>
