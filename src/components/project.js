@@ -11,13 +11,13 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
             </div>
             <div>
                 <h2>{title}</h2>
-                <p>{subtitle}</p>
+                <p className={projectStyle.subtitle}>{subtitle}</p>
                 <p>{description}</p>
                 <div className={projectStyle.projectLinks}>
-                    <a href={links.live}>
+                    <a href={links.live} target="_blank">
                         <button>View it live</button>
                     </a>
-                    <a href={links.gitHub}>
+                    <a href={links.gitHub} target="_blank">
                         <button>View the code</button>
                     </a>
                 </div>
