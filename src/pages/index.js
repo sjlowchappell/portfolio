@@ -8,6 +8,12 @@ const IndexPage = () => (
     <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
         <div className={indexStyle.about}>
+            <div className={indexStyle.aboutHeadshot}>
+                <img
+                    src={headshot}
+                    alt="It's my face! A headshot of me smiling sitting on my porch in Toronto."
+                />
+            </div>
             <div className={indexStyle.aboutDescription}>
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
@@ -32,12 +38,6 @@ const IndexPage = () => (
                     dragon-slaying heroes, or hitting one of the many southern
                     Ontario climbing crags.
                 </p>
-            </div>
-            <div className={indexStyle.aboutHeadshot}>
-                <img
-                    src={headshot}
-                    alt="It's my face! A headshot of me smiling sitting on my porch in Toronto."
-                />
             </div>
         </div>
     </Layout>

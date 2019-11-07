@@ -12,7 +12,7 @@ const Contact = () => {
         <Layout pageTitle="drop me a line">
             <SEO title="Contact" />
             <div className={contactStyles.contactContainer}>
-                <div>
+                <div className={contactStyles.contactText}>
                     <h2>Let's work together.</h2>
                     <p>
                         Have a freelance project? Looking to hire a junior dev?
@@ -25,7 +25,11 @@ const Contact = () => {
                         you.
                     </p>
                 </div>
-                <form onSubmit={handleSubmit} action="submit">
+                <form
+                    onSubmit={handleSubmit}
+                    action="submit"
+                    className={contactStyles.contactForm}
+                >
                     <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}>
                             <label for="name">Name</label>

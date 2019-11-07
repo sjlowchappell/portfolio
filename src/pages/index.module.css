@@ -1,35 +1,20 @@
-.about {
-    display: flex;
-    align-items: center;
-}
-
-.about p:first-child {
-    margin-top: 0px;
-}
-
-.aboutDescription {
-    flex: 1 0 60%;
-    padding-right: 5%;
-}
-
 .aboutHeadshot {
-    flex: 1 0 40%;
-    min-width: 300px;
-    max-width: 400px;
+    max-width: 350px;
+    float: right;
+    padding: 0px 0px 20px 20px;
 }
 .aboutHeadshot img {
     transition: 0.3s all;
 }
 
 @media (max-width: 900px) {
-    .about {
-        flex-direction: column;
-    }
-    .aboutDescription {
-        padding-right: 0px;
+    .aboutHeadshot {
+        float: none;
+        margin: 0 auto;
+        padding: 0px;
     }
     .aboutHeadshot img {
         border-radius: 50%;
-        margin: 30px 0px;
+        /* margin: 30px 0px; */
     }
 }

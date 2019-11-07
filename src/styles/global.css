@@ -191,7 +191,7 @@ img {
 }
 .innerWrapper {
     margin: 2% 10% 0px auto;
-    max-width: 1000px;
+    max-width: 800px;
     padding: 15px;
 }
 
@@ -231,17 +231,17 @@ a:hover {
 /* Buttons */
 button {
     border: 3px solid #6d435a;
-    padding: 10px 40px;
-    background: #e8edea;
-    color: #6d435a;
+    padding: 10px 30px;
+    color: #e8edea;
+    background: #6d435a;
     transition: 0.2s all;
 }
 button:hover {
-    color: #e8edea;
-    background: #6d435a;
+    background: #e8edea;
+    color: #6d435a;
 }
 button:hover a {
-    color: #e8edea;
+    background: #e8edea;
 }
 
 /* Nav */
@@ -275,7 +275,7 @@ footer {
     margin: 40px 0px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 900px) {
     .innerWrapper {
         margin-left: 0px;
         margin-right: 0px;

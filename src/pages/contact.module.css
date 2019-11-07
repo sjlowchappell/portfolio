@@ -22,8 +22,8 @@ label {
     display: flex;
 }
 
-.contactContainer > * {
-    padding-right: 10px;
+.contactForm {
+    padding-left: 15px;
 }
 
 .inputContainer {
@@ -43,6 +43,9 @@ label {
 @media (max-width: 850px) {
     .contactContainer {
         flex-direction: column;
+    }
+    .contactForm {
+        padding: 0px;
     }
 }
 
