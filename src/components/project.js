@@ -21,7 +21,11 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
                     >
                         <button>View it live</button>
                     </a>
-                    <a href={links.gitHub} target="_blank">
+                    <a
+                        href={links.gitHub}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <button>View the code</button>
                     </a>
                 </div>
