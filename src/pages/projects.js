@@ -16,7 +16,7 @@ const projectData = [
         description:
             'Fermented Films is a one stop shop for a curated evening based on one ingredient. Built using the React library, this project utilizes the MovieDB, CocktailDB, and MealsDB APIs.',
         links: {
-            live: '#',
+            live: 'https://sharp-goldberg-70cf0b.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/fermented-films',
         },
     },
