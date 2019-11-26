@@ -49,7 +49,7 @@ const projectData = [
         description:
             'Le Gourmand is a simple design conversion using HTML and CSS. Using modern techniques like CSS BEM and SASS, this project focuses on Web Accessibility to ensure it is good for all users.',
         links: {
-            live: '#',
+            live: 'https://fervent-williams-393db6.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/gourmetRestaurant',
         },
     },
