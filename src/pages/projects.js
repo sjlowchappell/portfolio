@@ -38,7 +38,7 @@ const projectData = [
         description:
             'Song Smash is a project using modern vanilla JavaScript. Enter your favorite song and get its lyrics. Smash the song, and see a silly result. Utilizes the Merriam Webster and Musixmatch APIs.',
         links: {
-            live: 'https://sjlowchappell.github.io/songSmasher/',
+            live: 'https://infallible-villani-1384e8.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/songSmasher',
         },
     },
