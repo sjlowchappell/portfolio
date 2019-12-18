@@ -7,6 +7,7 @@ import fermentedFilms from '../assets/fermentedFilmsMockup.png';
 import podcastable from '../assets/podcastableMockup.png';
 import songSmash from '../assets/songSmashMockup.png';
 import gourmand from '../assets/foodPassionMockup.png';
+import vacay from '../assets/vacayMockup.png';
 
 const projectData = [
     {
@@ -18,6 +19,17 @@ const projectData = [
         links: {
             live: 'https://sharp-goldberg-70cf0b.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/fermented-films',
+        },
+    },
+    {
+        image: vacay,
+        title: 'Vacay Tracker',
+        subtitle: 'Fun Project!',
+        description:
+            'Vacay Tracker is an application that allows you to budget and track your expenses while traveling. Built with React and Firebase, this project is the best way make sure your vacation spending is under control.',
+        links: {
+            live: 'https://wonderful-keller-24755d.netlify.com/',
+            gitHub: 'https://github.com/sjlowchappell/vacation-tracker',
         },
     },
     {
