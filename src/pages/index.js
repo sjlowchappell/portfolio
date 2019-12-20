@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headshot from '../assets/smilingHeadshot.jpg';
@@ -17,7 +18,14 @@ const IndexPage = () => (
             <div className={indexStyle.aboutDescription}>
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
-                    focused on creating amazing digital experiences.
+                    focused on creating dynamic web experiences for all users
+                </p>
+                <p>
+                    I’m a people person, a creative thinker, and a problem
+                    solver. I love to experiment with new technologies
+                    (currently exploring Gatsby and GraphQL), and I’m happiest
+                    working with a team of people striving to make the internet
+                    an accessible, inclusive, wonderfully weird space.
                 </p>
                 <p>
                     After studying Computer Science and Classics at McGill
@@ -26,17 +34,10 @@ const IndexPage = () => (
                         Juno College of Technology
                     </a>{' '}
                     (formerly HackerYou) in order to help working professionals
-                    transition into a career in Web Development.
-                </p>
-                <p>
-                    When I'm not hacking on projects, you can find me walking
-                    around the city listening to the latest{' '}
-                    <a href="https://gimletmedia.com/shows/heavyweight">
-                        Heavyweight
-                    </a>{' '}
-                    episode, Dungeon Master-ing an amazing party of
-                    dragon-slaying heroes, or hitting one of the many southern
-                    Ontario climbing crags.
+                    transition into a career in Web Development. Feel free to
+                    check out my <Link to="/projects/">projects</Link>, and
+                    please don't hesitate to{' '}
+                    <Link to="/contact/">get in touch!</Link>
                 </p>
             </div>
         </div>
