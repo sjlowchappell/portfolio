@@ -12,7 +12,7 @@ const projectData = [
     {
         image: fermentedFilms,
         title: 'Fermented Films',
-        subtitle: 'Fun Project!',
+        subtitle: 'JavaScript | React | API',
         description:
             'Fermented Films is a one stop shop for a curated evening based on one ingredient. Built using the React library, this project utilizes the MovieDB, CocktailDB, and MealsDB APIs.',
         links: {
@@ -23,9 +23,9 @@ const projectData = [
     {
         image: vacay,
         title: 'Vacay Tracker',
-        subtitle: 'Fun Project!',
+        subtitle: 'JavaScript | React | Firebase',
         description:
-            'Vacay Tracker is an application that allows you to budget and track your expenses while traveling. Built with React and Firebase, this project is the best way make sure your vacation spending is under control.',
+            'Vacay Tracker allows you to budget and track your expenses while traveling. Built with React and Firebase, this is the best tool to make sure your vacation spending is under control.',
         links: {
             live: 'https://wonderful-keller-24755d.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/vacation-tracker',
@@ -34,9 +34,9 @@ const projectData = [
     {
         image: podcastable,
         title: 'Podcastable',
-        subtitle: 'Fun Project!',
+        subtitle: 'JavaScript | React | API ',
         description:
-            'Podcastable is your home for podcast Recommendations. Built with React and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations based on the searched value.',
+            'Podcastable is your home for podcast recommendations. Built with React and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations based on the searched value.',
         links: {
             live: 'https://priceless-ardinghelli-25423e.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/podcastable',
@@ -45,7 +45,7 @@ const projectData = [
     {
         image: songSmash,
         title: 'Song Smash',
-        subtitle: 'Fun Project!',
+        subtitle: 'JavaScript | API | SCSS',
         description:
             'Song Smash is a project using modern vanilla JavaScript. Enter your favorite song and get its lyrics. Smash the song, and see a silly result. Utilizes the Merriam Webster and Musixmatch APIs.',
         links: {
@@ -56,9 +56,9 @@ const projectData = [
     {
         image: gourmand,
         title: 'Le Gourmand',
-        subtitle: 'Fun Project!',
+        subtitle: 'HTML | SCSS',
         description:
-            'Le Gourmand is a simple design conversion using HTML and CSS. Using modern techniques like CSS BEM and SASS, this project focuses on Web Accessibility to ensure it is good for all users.',
+            'Le Gourmand is a simple design conversion using HTML and SCSS. Built using modern techniques and with accessibility in mind.',
         links: {
             live: 'https://fervent-williams-393db6.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/gourmetRestaurant',
