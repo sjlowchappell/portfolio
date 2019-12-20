@@ -2,11 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0px;
-}
-
-.project:first-child {
-    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .project:nth-child(2n) {
