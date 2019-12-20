@@ -5,6 +5,7 @@ const Submit = () => {
     return (
         <Layout pageTitle="Thank you!">
             <iframe
+                title="Happy Obi-Wan"
                 src="https://giphy.com/embed/KLutwdTSDth72"
                 width="480"
                 height="264"

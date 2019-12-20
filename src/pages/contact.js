@@ -3,10 +3,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import contactStyles from './contact.module.css';
 
-// const handleSubmit = e => {
-//     e.preventDefault();
-// };
-
 const Contact = () => {
     return (
         <Layout pageTitle="drop me a line">
@@ -27,11 +23,12 @@ const Contact = () => {
                 </div>
                 <form
                     name="contact"
-                    // onSubmit={handleSubmit}
                     action="/submit"
                     method="POST"
                     data-netlify="true"
+                    netlify-honeypot="bot-field"
                 >
+                    <input type="hidden" name="bot-field" />
                     <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}>
                             <label htmlFor="name">Name</label>
