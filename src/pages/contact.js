@@ -56,7 +56,7 @@ const Contact = () => {
                         </div>
                     </div> */}
 
-                    <div className={contactStyles.inputContainer}>
+                    {/* <div className={contactStyles.inputContainer}>
                         <label htmlFor="message">Message</label>
                         <textarea
                             name="message"
@@ -65,7 +65,7 @@ const Contact = () => {
                             placeholder="He's more machine than man now..."
                             required
                         ></textarea>
-                    </div>
+                    </div> */}
 
                     <div className={contactStyles.buttonContainer}>
                         <button type="submit">Submit</button>
