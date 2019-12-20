@@ -36,14 +36,16 @@ const Contact = () => {
                                 type="text"
                                 id="name"
                                 placeholder="Obi Wan Kenobi"
+                                required
                             />
                         </div>
                         <div className={contactStyles.inputContainer}>
                             <label htmlFor="email">Email</label>
                             <input
-                                type="text"
+                                type="email"
                                 id="email"
                                 placeholder="obi.kenobi@dagoba.net"
+                                required
                             />
                         </div>
                     </div>
@@ -55,6 +57,7 @@ const Contact = () => {
                             id="message"
                             rows="6"
                             placeholder="He's more machine than man now..."
+                            required
                         ></textarea>
                     </div>
 
