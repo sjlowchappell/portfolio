@@ -29,7 +29,17 @@ const Contact = () => {
                     netlify-honeypot="bot-field"
                 >
                     <input type="hidden" name="bot-field" />
-                    <div className={contactStyles.nameAndEmailContainer}>
+                    <p>
+                        <label>
+                            Your Name: <input type="text" name="name" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Your Email: <input type="email" name="email" />
+                        </label>
+                    </p>
+                    {/* <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}>
                             <label htmlFor="name">Name</label>
                             <input
@@ -63,7 +73,7 @@ const Contact = () => {
 
                     <div className={contactStyles.buttonContainer}>
                         <button>Submit</button>
-                    </div>
+                    </div> */}
                 </form>
             </div>
         </Layout>
