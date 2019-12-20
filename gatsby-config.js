@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Sam Low-Chappell Portfolio`,
         description: `Welcome to my portfolio! Here you can find my latest work and how to contact me. Hope to speak with you soon!`,
-        author: `@gatsbyjs`,
+        author: `Sam Low-Chappell`,
     },
     plugins: [
         {
@@ -25,13 +25,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Sam Low-Chappell Portfolio`,
+                short_name: `SLC Portfolio`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
+                background_color: `#e8edea`,
+                theme_color: `#6d435a`,
                 display: `minimal-ui`,
-                icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+                icon: `src/images/favicon.png`, // This path is relative to the root of the site.
             },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
