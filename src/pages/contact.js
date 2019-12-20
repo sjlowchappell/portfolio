@@ -72,7 +72,7 @@ const Contact = () => {
                     </div> */}
 
                     <div className={contactStyles.buttonContainer}>
-                        <button>Submit</button>
+                        <button type="submit">Submit</button>
                     </div>
                 </form>
             </div>
