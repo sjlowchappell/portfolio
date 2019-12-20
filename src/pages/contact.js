@@ -29,20 +29,26 @@ const Contact = () => {
                     netlify-honeypot="bot-field"
                 >
                     <input type="hidden" name="bot-field" />
-                    <label htmlFor="name">Name</label>
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="Obi Wan Kenobi"
-                        required
-                    />
-                    <label htmlFor="email">Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="obi.kenobi@dagoba.net"
-                        required
-                    />
+                    <label htmlFor="name">
+                        Name:{' '}
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Obi Wan Kenobi"
+                            required
+                        />
+                    </label>
+
+                    <label htmlFor="email">
+                        Email:{' '}
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="obi.kenobi@dagoba.net"
+                            required
+                        />
+                    </label>
+
                     {/* <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}></div>
                         <div className={contactStyles.inputContainer}>
