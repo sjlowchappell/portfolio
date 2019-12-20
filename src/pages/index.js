@@ -18,7 +18,7 @@ const IndexPage = () => (
             <div className={indexStyle.aboutDescription}>
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
-                    focused on creating dynamic web experiences for all users
+                    focused on creating dynamic web experiences for all users.
                 </p>
                 <p>
                     I’m a people person, a creative thinker, and a problem
