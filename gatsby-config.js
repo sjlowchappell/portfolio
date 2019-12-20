@@ -8,7 +8,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
-                fonts: [`Cormorant Garamond`, `Roboto`, `Montserrat`],
+                fonts: [`Cormorant Garamond`, `Roboto`],
                 display: 'swap',
             },
         },
