@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 const Submit = () => {
     return (
         <Layout pageTitle="Thank you!">
+            <SEO title="Submit" />
             <iframe
                 title="Happy Obi-Wan"
                 src="https://giphy.com/embed/KLutwdTSDth72"
