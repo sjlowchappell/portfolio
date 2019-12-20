@@ -29,40 +29,30 @@ const Contact = () => {
                     netlify-honeypot="bot-field"
                 >
                     <input type="hidden" name="bot-field" />
-                    <label htmlFor="name">
-                        Name:{' '}
-                        <input
-                            type="text"
-                            id="name"
-                            placeholder="Obi Wan Kenobi"
-                            required
-                        />
-                    </label>
-
-                    <label htmlFor="email">
-                        Email:{' '}
-                        <input
-                            type="email"
-                            id="email"
-                            placeholder="obi.kenobi@dagoba.net"
-                            required
-                        />
-                    </label>
-
-                    {/* <div className={contactStyles.nameAndEmailContainer}>
-                        <div className={contactStyles.inputContainer}></div>
+                    <div className={contactStyles.nameAndEmailContainer}>
+                        <div className={contactStyles.inputContainer}>
+                            <label htmlFor="name">Name</label>
+                            <input
+                                name="name"
+                                type="text"
+                                id="name"
+                                placeholder="Obi Wan Kenobi"
+                                required
+                            />
+                        </div>
                         <div className={contactStyles.inputContainer}>
                             <label htmlFor="email">Email</label>
                             <input
+                                name="email"
                                 type="email"
                                 id="email"
                                 placeholder="obi.kenobi@dagoba.net"
                                 required
                             />
                         </div>
-                    </div> */}
+                    </div>
 
-                    {/* <div className={contactStyles.inputContainer}>
+                    <div className={contactStyles.inputContainer}>
                         <label htmlFor="message">Message</label>
                         <textarea
                             name="message"
@@ -71,7 +61,7 @@ const Contact = () => {
                             placeholder="He's more machine than man now..."
                             required
                         ></textarea>
-                    </div> */}
+                    </div>
 
                     <div className={contactStyles.buttonContainer}>
                         <button type="submit">Submit</button>
