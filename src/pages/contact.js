@@ -69,11 +69,11 @@ const Contact = () => {
                             placeholder="He's more machine than man now..."
                             required
                         ></textarea>
-                    </div>
+                    </div> */}
 
                     <div className={contactStyles.buttonContainer}>
                         <button>Submit</button>
-                    </div> */}
+                    </div>
                 </form>
             </div>
         </Layout>
