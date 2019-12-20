@@ -3,9 +3,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import contactStyles from './contact.module.css';
 
-const handleSubmit = e => {
-    e.preventDefault();
-};
+// const handleSubmit = e => {
+//     e.preventDefault();
+// };
 
 const Contact = () => {
     return (
@@ -25,7 +25,13 @@ const Contact = () => {
                         you.
                     </p>
                 </div>
-                <form onSubmit={handleSubmit} action="submit">
+                <form
+                    name="contact"
+                    // onSubmit={handleSubmit}
+                    action="submit"
+                    method="POST"
+                    data-netlify="true"
+                >
                     <div className={contactStyles.nameAndEmailContainer}>
                         <div className={contactStyles.inputContainer}>
                             <label htmlFor="name">Name</label>
