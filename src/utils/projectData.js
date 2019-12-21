@@ -2,7 +2,7 @@ import fermentedFilms from '../assets/fermentedFilmsMockup.png';
 import podcastable from '../assets/podcastableMockup.png';
 import songSmash from '../assets/songSmashMockup.png';
 import gourmand from '../assets/foodPassionMockup.png';
-import vacay from '../assets/vacayMockup.png';
+import packTrack from '../assets/packTrack.png';
 
 export default [
     {
@@ -17,11 +17,11 @@ export default [
         },
     },
     {
-        image: vacay,
-        title: 'Vacay Tracker',
+        image: packTrack,
+        title: 'Pack-Track!',
         subtitle: 'JavaScript | React | Firebase',
         description:
-            'Vacay Tracker allows you to budget and track your expenses while traveling. Built with React and Firebase, this is the best tool to make sure your vacation spending is under control.',
+            'Pack-track allows you to budget and track your expenses while traveling. Built with React and Firebase, this is the best tool to make sure your vacation spending is under control.',
         links: {
             live: 'https://wonderful-keller-24755d.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/vacation-tracker',
