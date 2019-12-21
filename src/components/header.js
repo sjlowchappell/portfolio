@@ -5,6 +5,7 @@ import github from '../assets/github-1.svg';
 import instagram from '../assets/instagram-glyph-1.svg';
 import linkedin from '../assets/linkedin-icon-1.svg';
 import './header.module.css';
+import resume from '../assets/resume.pdf';
 
 const Header = ({ pageTitle }) => (
     <header>
@@ -35,6 +36,11 @@ const Header = ({ pageTitle }) => (
                 </li>
                 <li>
                     <Link to="/contact/">Contact</Link>
+                </li>
+                <li>
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
+                        Resume
+                    </a>
                 </li>
             </ul>
         </nav>
