@@ -26,7 +26,6 @@ const Contact = () => {
                     action="/submit"
                     method="POST"
                     data-netlify="true"
-                    netlify-honeypot="bot-field"
                 >
                     <p>
                         <label>
