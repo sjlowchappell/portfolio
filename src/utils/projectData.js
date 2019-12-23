@@ -12,7 +12,7 @@ export default [
         description:
             'Fermented Films is a one stop shop for a curated evening based on one ingredient. Built using the React library, this project utilizes the MovieDB, CocktailDB, and MealsDB APIs.',
         links: {
-            live: 'https://sharp-goldberg-70cf0b.netlify.com/',
+            live: 'fermentedfilms.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/fermented-films',
         },
     },
@@ -23,7 +23,7 @@ export default [
         description:
             'Pack-track allows you to budget and track your expenses while traveling. Built with React and Firebase, this is the best tool to make sure your vacation spending is under control.',
         links: {
-            live: 'https://wonderful-keller-24755d.netlify.com/',
+            live: 'packtrack.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/vacation-tracker',
         },
     },
@@ -34,18 +34,18 @@ export default [
         description:
             'Podcastable is your home for podcast recommendations. Built with React and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations based on the searched value.',
         links: {
-            live: 'https://priceless-ardinghelli-25423e.netlify.com/',
+            live: 'podcastable.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/podcastable',
         },
     },
     {
         image: songSmash,
-        title: 'Song Smash',
+        title: 'Song Smasher',
         subtitle: 'JavaScript | API | SCSS',
         description:
-            'Song Smash is a project using modern vanilla JavaScript. Enter your favorite song and get its lyrics. Smash the song, and see a silly result. Utilizes the Merriam Webster and Musixmatch APIs.',
+            'Song Smasher is a project using modern vanilla JavaScript. Enter your favorite song and get its lyrics. Smash the song, and see a silly result. Utilizes the Merriam Webster and Musixmatch APIs.',
         links: {
-            live: 'https://infallible-villani-1384e8.netlify.com/',
+            live: 'songsmasher.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/songSmasher',
         },
     },
@@ -56,7 +56,7 @@ export default [
         description:
             'Le Gourmand is a simple design conversion using HTML and SCSS. Built using modern techniques and with accessibility in mind.',
         links: {
-            live: 'https://fervent-williams-393db6.netlify.com/',
+            live: 'gourmetresto.netlify.com/',
             gitHub: 'https://github.com/sjlowchappell/gourmetRestaurant',
         },
     },
