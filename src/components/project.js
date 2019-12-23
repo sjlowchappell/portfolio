@@ -5,8 +5,11 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
     return (
         <div className={projectStyle.project}>
             <div className={projectStyle.projectImage}>
-                <a href={links.live}>
-                    <img src={image} alt="" />
+                <a href={links.live} target="_blank" rel="noopener noreferrer">
+                    <img
+                        src={image}
+                        alt={`Mockup of the ${title} project on a macbook`}
+                    />
                 </a>
             </div>
             <div>
