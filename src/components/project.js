@@ -4,14 +4,17 @@ import styles from './project.module.css';
 const Project = ({ title, subtitle, description, image, links }) => {
     return (
         <section className={styles.project}>
-            <div className={styles.projectImage}>
-                <a href={links.live} target="_blank" rel="noopener noreferrer">
-                    <img
-                        src={image}
-                        alt={`Mockup of the ${title} project on a macbook`}
-                    />
-                </a>
-            </div>
+            <a
+                className={styles.projectImage}
+                href={links.live}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img
+                    src={image}
+                    alt={`Mockup of the ${title} project on a macbook`}
+                />
+            </a>
             <div>
                 <h2 className={styles.title}>{title}</h2>
                 <p className={styles.subtitle}>{subtitle}</p>
