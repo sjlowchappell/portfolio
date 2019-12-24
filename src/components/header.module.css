@@ -1,9 +1,99 @@
-header img {
+.icon {
     width: 30px;
 }
 
-header nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Styling for hamburger menu taken from https://codepen.io/Joanc/pen/XYYZdE and modified to fit this project */
+.hamburgerInput {
+    display: none;
+    position: fixed;
+    top: 33px;
+    right: 40px;
+    height: 25px;
+    width: 33px;
+    cursor: pointer;
+    z-index: 1111;
+    opacity: 0;
+}
+
+.hamburgerLine {
+    display: none;
+    position: relative;
+    height: 4px;
+    width: 33px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    z-index: 111;
+    background: black;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.3s ease;
+}
+
+.hamContainer {
+    position: fixed;
+    top: 33px;
+    right: 40px;
+    z-index: 11;
+}
+
+.hamburgerLine:nth-child(3) {
+    transform-origin: 0% 100%;
+}
+
+@media (max-width: 650px) {
+    .nav {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -250px;
+        background: #e8edea;
+        width: 250px;
+        height: 100%;
+        padding: 50px;
+        padding-top: 100px;
+        transition: 0.5s all;
+        z-index: 1;
+        background: linear-gradient(
+            180deg,
+            rgba(232, 237, 234, 1),
+            rgba(232, 237, 234, 0.9)
+        );
+    }
+    .subnav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .subnav > * {
+        padding: 20px 0px;
+    }
+    .hamburgerInput,
+    .hamburgerLine {
+        display: block;
+    }
+    .hamburgerInput:checked ~ .nav {
+        right: 0px;
+    }
+
+    .hamburgerInput:checked ~ .hamContainer > .hamburgerLine {
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+    .hamburgerInput:checked ~ .hamContainer > .hamburgerLine:nth-child(2) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0);
+    }
+
+    .hamburgerInput:checked ~ .hamContainer > .hamburgerLine:nth-child(3) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /* End styling from https://codepen.io/Joanc/pen/XYYZdE */
 }
