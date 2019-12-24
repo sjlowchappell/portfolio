@@ -11,9 +11,9 @@ const Contact = () => {
                 <div className={contactStyles.contactText}>
                     <h2>Let's work together.</h2>
                     <p>
-                        Have a freelance project? Looking to hire a junior dev?
-                        Want to chat southern Ontario climbing routes? I'm your
-                        guy.
+                        Have a freelance project? Looking to hire a new
+                        teammate? Want to chat southern Ontario climbing routes?
+                        I'm your guy.
                     </p>
                     <p>
                         Send me an email at sjlowchappell@gmail.com or fill out

@@ -23,17 +23,29 @@ const Header = ({ pageTitle }) => (
             <ul>
                 <li>
                     <a href="https://github.com/sjlowchappell">
-                        <img src={github} alt="GitHub Icon" className={styles.icon} />
+                        <img
+                            src={github}
+                            alt="GitHub Icon"
+                            className={styles.icon}
+                        />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/sammylowchappy/">
-                        <img src={instagram} alt="Instagram Icon" className={styles.icon} />
+                        <img
+                            src={instagram}
+                            alt="Instagram Icon"
+                            className={styles.icon}
+                        />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/samuel-low-chappell-626110b3/">
-                        <img src={linkedin} alt="Linkedin Icon" className={styles.icon} />
+                        <img
+                            src={linkedin}
+                            alt="Linkedin Icon"
+                            className={styles.icon}
+                        />
                     </a>
                 </li>
             </ul>
