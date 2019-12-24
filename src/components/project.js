@@ -1,10 +1,10 @@
 import React from 'react';
-import projectStyle from './project.module.css';
+import styles from './project.module.css';
 
-const Project = ({ title, subtitle, description, image, links, index }) => {
+const Project = ({ title, subtitle, description, image, links }) => {
     return (
-        <div className={projectStyle.project}>
-            <div className={projectStyle.projectImage}>
+        <section className={styles.project}>
+            <div className={styles.projectImage}>
                 <a href={links.live} target="_blank" rel="noopener noreferrer">
                     <img
                         src={image}
@@ -13,10 +13,10 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
                 </a>
             </div>
             <div>
-                <h2>{title}</h2>
-                <p className={projectStyle.subtitle}>{subtitle}</p>
+                <h2 className={styles.title}>{title}</h2>
+                <p className={styles.subtitle}>{subtitle}</p>
                 <p>{description}</p>
-                <div className={projectStyle.projectLinks}>
+                <div className={styles.projectLinks}>
                     <a
                         href={links.live}
                         target="_blank"
@@ -33,7 +33,7 @@ const Project = ({ title, subtitle, description, image, links, index }) => {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
