@@ -2,6 +2,11 @@
     width: 30px;
 }
 
+.icon:hover {
+    filter: invert(65%) sepia(31%) saturate(6562%) hue-rotate(316deg)
+        brightness(103%) contrast(101%);
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,7 @@
     transform-origin: 0% 100%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .nav {
         flex-direction: column-reverse;
         align-items: flex-start;

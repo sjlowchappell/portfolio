@@ -1,3 +1,5 @@
+/* Start Normalize */
+
 article,
 aside,
 details,
@@ -175,6 +177,10 @@ input::-moz-focus-inner {
     overflow: hidden;
 }
 
+/* End Normalize */
+
+/* Start General Styles */
+
 body {
     background-color: #e8edea;
     line-height: 1.8;
@@ -249,10 +255,7 @@ button:hover a {
 nav a {
     color: black;
 }
-nav img:hover {
-    filter: invert(65%) sepia(31%) saturate(6562%) hue-rotate(316deg)
-        brightness(103%) contrast(101%);
-}
+
 ul {
     padding: 0;
     margin: 0;
@@ -262,6 +265,7 @@ li {
     list-style: none;
     padding-right: 30px;
 }
+
 li a {
     display: flex;
 }
