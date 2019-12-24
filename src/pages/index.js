@@ -3,19 +3,20 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headshot from '../assets/smilingHeadshot.jpg';
-import indexStyle from './index.module.css';
+import styles from './index.module.css';
 
 const IndexPage = () => (
     <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
-        <div className={indexStyle.about}>
-            <div className={indexStyle.aboutHeadshot}>
+        <section>
+            <div className={styles.headshotContainer}>
                 <img
+                    className={styles.headshot}
                     src={headshot}
                     alt="It's my face! A headshot of me smiling sitting on my porch in Toronto."
                 />
             </div>
-            <div className={indexStyle.aboutDescription}>
+            <div>
                 <p>
                     Hey there! I'm an American-born, Toronto-based Web Developer
                     focused on creating dynamic web experiences for all users.
@@ -40,7 +41,7 @@ const IndexPage = () => (
                     <Link to="/contact/">get in touch!</Link>
                 </p>
             </div>
-        </div>
+        </section>
     </Layout>
 );
 

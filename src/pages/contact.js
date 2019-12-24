@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import contactStyles from './contact.module.css';
+import styles from './contact.module.css';
 
 const Contact = () => {
     return (
         <Layout pageTitle="drop me a line">
             <SEO title="Contact" />
-            <div className={contactStyles.contactContainer}>
-                <div className={contactStyles.contactText}>
+            <div className={styles.contactContainer}>
+                <div>
                     <h2>Let's work together.</h2>
                     <p>
                         Have a freelance project? Looking to hire a new
@@ -29,8 +29,8 @@ const Contact = () => {
                 >
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
-                    <div className={contactStyles.nameAndEmailContainer}>
-                        <div className={contactStyles.inputContainer}>
+                    <div className={styles.nameAndEmailContainer}>
+                        <div className={styles.inputContainer}>
                             <label htmlFor="name">Name</label>
                             <input
                                 name="name"
@@ -40,7 +40,7 @@ const Contact = () => {
                                 required
                             />
                         </div>
-                        <div className={contactStyles.inputContainer}>
+                        <div className={styles.inputContainer}>
                             <label htmlFor="email">Email</label>
                             <input
                                 name="email"
@@ -52,7 +52,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className={contactStyles.inputContainer}>
+                    <div className={styles.inputContainer}>
                         <label htmlFor="message">Message</label>
                         <textarea
                             name="message"
@@ -63,7 +63,7 @@ const Contact = () => {
                         ></textarea>
                     </div>
 
-                    <div className={contactStyles.buttonContainer}>
+                    <div className={styles.buttonContainer}>
                         <button type="submit">Submit</button>
                     </div>
                 </form>
