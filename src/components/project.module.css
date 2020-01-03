@@ -58,3 +58,10 @@
         order: 0;
     }
 }
+
+@media (max-width: 400px) {
+    .project button {
+        padding: 10px 15px;
+        font-size: 1.6rem;
+    }
+}
