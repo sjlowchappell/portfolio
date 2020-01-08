@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './project.module.css';
+import PropTypes from 'prop-types';
 
 const Project = ({ title, subtitle, description, image, links }) => {
     return (
@@ -38,6 +39,14 @@ const Project = ({ title, subtitle, description, image, links }) => {
             </div>
         </section>
     );
+};
+
+Project.propTypes = {
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    description: PropTypes.string,
+    image: PropTypes.string,
+    links: PropTypes.string,
 };
 
 export default Project;
