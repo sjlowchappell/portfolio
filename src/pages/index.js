@@ -24,7 +24,7 @@ const IndexPage = () => (
                 <p>
                     I’m a people person, a creative thinker, and a problem
                     solver. I love to experiment with new technologies
-                    (currently exploring Gatsby and GraphQL), and I’m happiest
+                    (currently exploring Gatsby and Netlify), and I’m happiest
                     working with a team of people striving to make the internet
                     an accessible, inclusive, wonderfully weird space.
                 </p>
