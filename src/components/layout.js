@@ -17,10 +17,10 @@ const Layout = ({ pageTitle, children }) => {
                 <main>{children}</main>
                 <footer>
                     <p>
-                        © {new Date().getFullYear()}, Built with
-                        {` `}
-                        <a href="https://www.gatsbyjs.org">Gatsby</a> by Sam
-                        Low-Chappell
+                        © {new Date().getFullYear()}, Designed and Built by{' '}
+                        <a href="https://samlow-chappell.com">
+                            Sam Low-Chappell
+                        </a>
                     </p>
                 </footer>
             </div>
