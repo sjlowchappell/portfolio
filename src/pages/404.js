@@ -18,7 +18,7 @@ const NotFoundPage = ({ location }) => {
 };
 
 NotFoundPage.propTypes = {
-    location: propTypes.object,
+    location: PropTypes.object,
 };
 
 export default NotFoundPage;

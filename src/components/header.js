@@ -22,7 +22,11 @@ const Header = ({ pageTitle }) => (
         <nav className={styles.nav}>
             <ul>
                 <li>
-                    <a href="https://github.com/sjlowchappell">
+                    <a
+                        href="https://github.com/sjlowchappell"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img
                             src={github}
                             alt="GitHub Icon"
@@ -31,7 +35,11 @@ const Header = ({ pageTitle }) => (
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/sammylowchappy/">
+                    <a
+                        href="https://www.instagram.com/sammylowchappy/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img
                             src={instagram}
                             alt="Instagram Icon"
@@ -40,7 +48,11 @@ const Header = ({ pageTitle }) => (
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/samuel-low-chappell-626110b3/">
+                    <a
+                        href="https://www.linkedin.com/in/samuel-low-chappell-626110b3/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img
                             src={linkedin}
                             alt="Linkedin Icon"

@@ -46,7 +46,7 @@ Project.propTypes = {
     subtitle: PropTypes.string,
     description: PropTypes.string,
     image: PropTypes.string,
-    links: PropTypes.string,
+    links: PropTypes.object,
 };
 
 export default Project;
