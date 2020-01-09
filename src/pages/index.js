@@ -13,6 +13,7 @@ const IndexPage = props => (
                 <Img
                     className={styles.headshot}
                     fluid={props.data.smilingHeadshot.childImageSharp.fluid}
+                    alt={`A nice photo of me smiling`}
                 />
             </div>
             <div>

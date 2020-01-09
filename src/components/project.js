@@ -12,7 +12,10 @@ const Project = ({ title, subtitle, description, image, links }) => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <Img fluid={image.childImageSharp.fluid} />
+                <Img
+                    fluid={image.childImageSharp.fluid}
+                    alt={`${title} Project Mockup`}
+                />
             </a>
             <div>
                 <h2 className={styles.title}>{title}</h2>
