@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './project.module.css';
 import PropTypes from 'prop-types';
+import Img from 'gatsby-image';
 
 const Project = ({ title, subtitle, description, image, links }) => {
     return (
@@ -11,10 +12,7 @@ const Project = ({ title, subtitle, description, image, links }) => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img
-                    src={image}
-                    alt={`Mockup of the ${title} project on a macbook`}
-                />
+                <Img fluid={image.childImageSharp.fluid} />
             </a>
             <div>
                 <h2 className={styles.title}>{title}</h2>
@@ -45,7 +43,7 @@ Project.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
     description: PropTypes.string,
-    image: PropTypes.string,
+    image: PropTypes.object,
     links: PropTypes.object,
 };
 

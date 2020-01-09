@@ -4,17 +4,17 @@ import SEO from '../components/seo';
 import Project from '../components/project';
 import projectData from '../utils/projectData';
 
-const Projects = () => (
+const Projects = props => (
     <Layout pageTitle="projects">
         <SEO title="Projects" />
         {projectData.map((project, index) => {
-            const { title, subtitle, description, image, links } = project;
+            const { title, subtitle, description, shorthand, links } = project;
             return (
                 <Project
                     title={title}
                     subtitle={subtitle}
                     description={description}
-                    image={image}
+                    image={props.data[shorthand]}
                     links={links}
                     index={index}
                     key={index}
@@ -25,3 +25,33 @@ const Projects = () => (
 );
 
 export default Projects;
+
+export const fluidImage = graphql`
+    fragment fluidImage on File {
+        childImageSharp {
+            fluid(maxWidth: 1000) {
+                ...GatsbyImageSharpFluid
+            }
+        }
+    }
+`;
+
+export const pageQuery = graphql`
+    query {
+        fermentedFilms: file(relativePath: { eq: "fermentedFilmsMockup.png" }) {
+            ...fluidImage
+        }
+        packTrack: file(relativePath: { eq: "packTrack.png" }) {
+            ...fluidImage
+        }
+        podcastable: file(relativePath: { eq: "podcastableMockup.png" }) {
+            ...fluidImage
+        }
+        songSmash: file(relativePath: { eq: "songSmashMockup.png" }) {
+            ...fluidImage
+        }
+        gourmand: file(relativePath: { eq: "foodPassionMockup.png" }) {
+            ...fluidImage
+        }
+    }
+`;

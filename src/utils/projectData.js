@@ -1,12 +1,6 @@
-import fermentedFilms from '../assets/fermentedFilmsMockup.png';
-import podcastable from '../assets/podcastableMockup.png';
-import songSmash from '../assets/songSmashMockup.png';
-import gourmand from '../assets/foodPassionMockup.png';
-import packTrack from '../assets/packTrack.png';
-
 export default [
     {
-        image: fermentedFilms,
+        shorthand: 'fermentedFilms',
         title: 'Fermented Films',
         subtitle: 'JavaScript | React | API',
         description:
@@ -17,7 +11,7 @@ export default [
         },
     },
     {
-        image: packTrack,
+        shorthand: 'packTrack',
         title: 'Pack-Track!',
         subtitle: 'JavaScript | React | Firebase',
         description:
@@ -28,7 +22,7 @@ export default [
         },
     },
     {
-        image: podcastable,
+        shorthand: 'podcastable',
         title: 'Podcastable',
         subtitle: 'JavaScript | React | API ',
         description:
@@ -39,7 +33,7 @@ export default [
         },
     },
     {
-        image: songSmash,
+        shorthand: 'songSmash',
         title: 'Song Smasher',
         subtitle: 'JavaScript | API | SCSS',
         description:
@@ -50,7 +44,7 @@ export default [
         },
     },
     {
-        image: gourmand,
+        shorthand: 'gourmand',
         title: 'Le Gourmand',
         subtitle: 'HTML | SCSS',
         description:

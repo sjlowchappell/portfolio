@@ -2,18 +2,17 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import headshot from '../assets/smilingHeadshot.jpg';
 import styles from './index.module.css';
+import Img from 'gatsby-image';
 
-const IndexPage = () => (
+const IndexPage = props => (
     <Layout pageTitle={'sam low-chappell'}>
         <SEO title="Home" />
         <section>
             <div className={styles.headshotContainer}>
-                <img
+                <Img
                     className={styles.headshot}
-                    src={headshot}
-                    alt="It's my face! A headshot of me smiling sitting on my porch in Toronto."
+                    fluid={props.data.smilingHeadshot.childImageSharp.fluid}
                 />
             </div>
             <div>
@@ -46,3 +45,15 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+    query {
+        smilingHeadshot: file(relativePath: { eq: "smilingHeadshot.jpg" }) {
+            childImageSharp {
+                fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+    }
+`;
