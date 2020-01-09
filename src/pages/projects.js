@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Project from '../components/project';
 import projectData from '../utils/projectData';
+import { graphql } from 'gatsby';
 
 const Projects = props => (
     <Layout pageTitle="projects">
