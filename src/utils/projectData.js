@@ -24,12 +24,12 @@ export default [
     {
         shorthand: 'podcastable',
         title: 'Podcastable',
-        subtitle: 'JavaScript | React | API ',
+        subtitle: 'TypeScript | React | API ',
         description:
-            'Podcastable is your home for podcast recommendations. Built with React and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations based on the searched value.',
+            'Podcastable is your home for podcast recommendations. Written in TypeScript, built with React, and leveraging the ListenNotes API. Search your favorite podcast and get a list of up to 8 recommendations.',
         links: {
-            live: 'https://podcastable.netlify.com/',
-            gitHub: 'https://github.com/sjlowchappell/podcastable',
+            live: 'https://podcastablets.netlify.com/',
+            gitHub: 'https://github.com/sjlowchappell/podcastable-ts',
         },
     },
     {
