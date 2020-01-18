@@ -1,20 +1,22 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import styles from './submit.module.css';
 
 const Submit = () => {
     return (
         <Layout pageTitle="Thank you!">
             <SEO title="Submit" />
-            <iframe
-                title="Salty Success"
-                src="https://giphy.com/embed/3o7P4F86TAI9Kz7XYk"
-                width="478"
-                height="480"
-                frameBorder="0"
-                class="giphy-embed"
-                allowFullScreen
-            ></iframe>
+            <div className={styles.giphyEmbedContainer}>
+                <iframe
+                    title="Salty Success"
+                    src="https://giphy.com/embed/3o7P4F86TAI9Kz7XYk"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allowFullScreen
+                ></iframe>
+            </div>
             <p>
                 <a href="https://giphy.com/gifs/3o7P4F86TAI9Kz7XYk">
                     via GIPHY
