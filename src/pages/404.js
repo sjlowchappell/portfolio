@@ -7,11 +7,11 @@ import SEO from '../components/seo';
 const NotFoundPage = ({ location }) => {
     const name = location.pathname;
     return (
-        <Layout pageTitle={`You seriously tried to go to the ${name} page?`}>
+        <Layout pageTitle={`You made it to the ${name} page??`}>
             <SEO title="404: Not found" />
             <p>
-                Get outa here!! Go check out my{' '}
-                <Link to="/projects">projects</Link> instead.
+                Not much to see here! But while you're around, I recommend
+                taking a look at these <Link to="/projects">projects</Link>.
             </p>
         </Layout>
     );

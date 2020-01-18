@@ -7,14 +7,16 @@ const Submit = () => {
         <Layout pageTitle="Thank you!">
             <SEO title="Submit" />
             <iframe
-                title="Happy Obi-Wan"
-                src="https://giphy.com/embed/KLutwdTSDth72"
-                width="480"
-                height="264"
+                title="Salty Success"
+                src="https://giphy.com/embed/3o7P4F86TAI9Kz7XYk"
+                width="478"
+                height="480"
                 frameBorder="0"
+                class="giphy-embed"
+                allowFullScreen
             ></iframe>
             <p>
-                <a href="https://giphy.com/gifs/tripping-balls-KLutwdTSDth72">
+                <a href="https://giphy.com/gifs/3o7P4F86TAI9Kz7XYk">
                     via GIPHY
                 </a>
             </p>

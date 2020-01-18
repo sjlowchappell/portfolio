@@ -36,7 +36,7 @@ const Contact = () => {
                                 name="name"
                                 type="text"
                                 id="name"
-                                placeholder="Obi Wan Kenobi"
+                                placeholder="Cato the Elder"
                                 required
                             />
                         </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                                 name="email"
                                 type="email"
                                 id="email"
-                                placeholder="obi.kenobi@dagoba.net"
+                                placeholder="marcus.porcius@tusculum.net"
                                 required
                             />
                         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                             name="message"
                             id="message"
                             rows="6"
-                            placeholder="He's more machine than man now..."
+                            placeholder="Carthago delenda est!"
                             required
                         ></textarea>
                     </div>
