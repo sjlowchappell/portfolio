@@ -24,9 +24,9 @@ const IndexPage = props => (
                 <p>
                     I’m a people person, a creative thinker, and a problem
                     solver. I love to experiment with new technologies
-                    (currently exploring Gatsby and Netlify), and I’m happiest
-                    working with a team of people striving to make the internet
-                    an accessible, inclusive, wonderfully weird space.
+                    (currently exploring TypeScript), and I’m happiest working
+                    with a team of people striving to make the internet an
+                    accessible, inclusive, wonderfully weird space.
                 </p>
                 <p>
                     After studying Computer Science and Classics at McGill
