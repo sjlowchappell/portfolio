@@ -36,8 +36,7 @@ const IndexPage = props => (
                     </a>{' '}
                     (formerly HackerYou) in order to help working professionals
                     transition into a career in Web Development. These days I'm
-                    developing Healthcare applications at
-                    <a href="http://thoughtwire.com">ThoughtWire</a>, helping
+                    developing Healthcare applications at <a href="http://thoughtwire.com">ThoughtWire</a>, helping
                     improve practitioner experience and enabling better patient
                     outcomes. Feel free to check out my{' '}
                     <Link to="/projects/">projects</Link>, and please don't
