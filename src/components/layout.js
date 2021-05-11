@@ -17,7 +17,7 @@ const Layout = ({ pageTitle, children }) => {
                 <main>{children}</main>
                 <footer>
                     <p>
-                        © {new Date().getFullYear()}, <a href="https://samlow-chappell.com">
+                        © {new Date().getFullYear()} <a href="https://samlow-chappell.com">
                             Sam Low-Chappell
                         </a>
                     </p>
