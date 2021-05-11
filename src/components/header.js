@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import github from '../assets/github-1.svg';
-import instagram from '../assets/instagram-glyph-1.svg';
+// import instagram from '../assets/instagram-glyph-1.svg';
 import linkedin from '../assets/linkedin-icon-1.svg';
 import styles from './header.module.css';
 import resume from '../assets/resume.pdf';
@@ -36,20 +36,7 @@ const Header = ({ pageTitle }) => (
                 </li>
                 <li>
                     <a
-                        href="https://www.instagram.com/sammylowchappy/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src={instagram}
-                            alt="Instagram Icon"
-                            className={styles.icon}
-                        />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/samuel-low-chappell-626110b3/"
+                        href="https://www.linkedin.com/in/sam-low-chappell-626110b3/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
